@@ -3,11 +3,13 @@
 This is a FastAPI project that integrates with the OpenAI GPT-3.5 Turbo model for text-based consultations.
 
 ## Setup
-1. **Shortcut** (you can skip 2-4 steps)
+1. **Shortcut** (you can skip 2-6 (5 step is necessary) steps)
    
    Download setup.sh and then enter in cmd:
    ```bash
     ./setup.sh
+   ```
+   Then only you need to do it`s OpenAI API key, after tap enter in console to launch application.
 2. **Clone the repository:**
 
    ```bash
