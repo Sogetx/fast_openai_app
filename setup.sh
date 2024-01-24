@@ -6,8 +6,12 @@ cd fast_openai_app
 
 # Step 2: Setup your venv
 python -m venv venv
-.\venv\Scripts\activate  # On Windows, use `.\venv\Scripts\activate`
+source "$(pwd)/venv/Scripts/activate"  
 
 # Step 3: Download libs
 cd app
 pip install -r requirements.txt
+read -p "Change the openai_key and then press enter...."
+
+uvicorn main:app --reload    
+read -p "When finish press Enter...."
