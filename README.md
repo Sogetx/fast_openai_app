@@ -5,7 +5,7 @@ This is a FastAPI project that integrates with the OpenAI GPT-3.5 Turbo model fo
 ## Setup
 1. **Shortcut** (you can skip 2-6 (5 step is necessary) steps)
    
-   Download ONLY setup.sh and then click on it, or enter in cmd:
+   Download <strong>ONLY</strong> setup.sh and then click on it, or enter in cmd:
    ```bash
     ./setup.sh
    ```
