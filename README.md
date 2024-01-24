@@ -7,7 +7,7 @@ This is a FastAPI project that integrates with the OpenAI GPT-3.5 Turbo model fo
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your_username/your_project.git
+   git clone https://github.com/Sogetx/fast_openai_app.git
    cd your_project
 2. **Setup your venv**
    ```bash
