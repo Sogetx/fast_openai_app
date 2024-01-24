@@ -6,7 +6,7 @@ cd fast_openai_app
 
 # Step 2: Setup your venv
 python -m venv venv
-source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
+.\venv\Scripts\activate  # On Windows, use `.\venv\Scripts\activate`
 
 # Step 3: Download libs
 cd app
