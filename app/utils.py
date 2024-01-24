@@ -1,7 +1,7 @@
 import openai
 
-#openai.api_key = "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" 
-openai.api_key = "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" #!!!!! Input your OpenAI API key here
+
+openai.api_key = "your key" #!!!!! Input your OpenAI API key here
 def generate_response(input):
     messages = [
         {"role": "user",
