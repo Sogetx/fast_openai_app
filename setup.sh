@@ -1,8 +1,19 @@
 #!/bin/bash
 
 # Step 1: Clone the repository
-git clone https://github.com/Sogetx/fast_openai_app.git
-cd fast_openai_app
+REPO_DIR="fast_openai_app"
+
+# сheck the repo exists
+if [ -d "$REPO_DIR" ]; then
+    echo "The repo was cloned..."
+    cd "$REPO_DIR"
+else
+    # cloning
+    echo "Cloning repo...."
+    git clone https://github.com/Sogetx/fast_openai_app.git
+    cd "$REPO_DIR"
+fi
+
 
 # Step 2: Setup your venv
 python -m venv venv
