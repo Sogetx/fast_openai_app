@@ -6,11 +6,6 @@ app = FastAPI()
 class Input_Text(BaseModel):
     data: str
 
-
-@app.get("/ok")
-async def ok_endpoint():
-    return {"message": "ok"} 
-
 @app.get("/test")
 async def test_endpoint(name: str ="It`s test"):
     return {"message": f"Hi, {name}!"} 
