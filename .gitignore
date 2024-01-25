@@ -1,0 +1,14 @@
+# Git-related files
+.gitattributes
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyo
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
