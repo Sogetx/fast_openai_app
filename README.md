@@ -52,10 +52,12 @@ This is a FastAPI project that integrates with the OpenAI GPT-3.5 Turbo model fo
    ```bash
    uvicorn main:app --reload
 6. **Enter your prompt**
-Tap [here](http://127.0.0.1:8000/docs#/default/consult_endpoint_consult_post) and then enter in consult Request body something like this:
-![image](https://github.com/Sogetx/fast_openai_app/assets/78159992/53d58fcc-41da-4bb8-b179-047f54b7f357)
+   
+   Tap [here](http://127.0.0.1:8000/docs#/default/consult_endpoint_consult_post) and then enter in consult Request body something like this:
+   ![image](https://github.com/Sogetx/fast_openai_app/assets/78159992/53d58fcc-41da-4bb8-b179-047f54b7f357)
 7. **Check Respons**
-Wait a minute after previous step and then recive you will recive answer like here:
-![image](https://github.com/Sogetx/fast_openai_app/assets/78159992/790aade4-2952-4c4d-976b-a9a4dc394ab1)
-![image](https://github.com/Sogetx/fast_openai_app/assets/78159992/750c003b-54dd-43cf-bfe2-a44aa54aaa44)
+8. 
+   Wait a minute after previous step and then recive you will recive answer like here:
+   ![image](https://github.com/Sogetx/fast_openai_app/assets/78159992/790aade4-2952-4c4d-976b-a9a4dc394ab1)
+   ![image](https://github.com/Sogetx/fast_openai_app/assets/78159992/750c003b-54dd-43cf-bfe2-a44aa54aaa44)
 
